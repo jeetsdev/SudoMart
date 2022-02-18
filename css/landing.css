@@ -44,7 +44,7 @@ body {
 /*! Main site wrappers style   */
 
 /* Site intro section style here  */
-.main__site-wrapper .site__intro-sec {
+.landing__site-wrapper .site__intro-sec {
     align-items: center;
     gap: 0;
     min-height: 80vh;
@@ -170,9 +170,6 @@ body {
 /*! Main footer style here */
 
 .main__footer {
+    margin: 2rem 0;
     min-height: 2rem;
-}
-
-.main__footer p {
-    margin-bottom: 1rem;
 }
