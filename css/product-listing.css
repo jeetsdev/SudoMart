@@ -1,0 +1,58 @@
+@import url(common.css);
+@import url(landing.css);
+
+
+/*! Product site wrapper style here  */
+
+.product__site-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-content: center;
+}
+
+
+/** Filter section style here */
+.site__filter-sec>* {
+    margin-left: 1rem;
+}
+
+.site__filter-sec form {
+    align-items: flex-start;
+}
+
+.filter__sec-title h3 {
+    margin-right: auto;
+}
+
+
+/** Prodcuts section cards style here */
+.site__product-sec {
+    padding: 0 1rem;
+}
+
+.card {
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s linear;
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px var(--color-off-white);
+    transform: translateY(-5px);
+}
+
+/** Gaps btw cards */
+.product__sec-cards {
+    gap: 1rem;
+}
+
+/** Card upper section here */
+.card .card__sec-upper {
+    background-color: var(--color-image-bg);
+}
+
+/** Card lower section here */
+.card__e-commerce .card__sec-lower {
+    background-color: var(--color-text-bg);
+    padding: 0.5rem;
+}

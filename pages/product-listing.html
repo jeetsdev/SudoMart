@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/product-listing.css">
+</head>
+<body>
+    <div class="container__main center__flex flex__dir-col">
+        <header class="main__header">
+
+            <!-- Announcment bar here -->
+            <section class="header__announcment-bar center__flex">
+                <p>
+                    Flat 50% off on various products.
+                </p>
+            </section>
+
+            <!-- Navbar here -->
+            <nav class="header__navbar center__flex">
+                <nav class="nav center__flex">
+
+                    <!-- Title section here -->
+                    <div class="nav__title-sec">
+                        <h3 class="headline-3"> SudoMart </h3>
+                    </div>
+
+                    <!-- Search section here-->
+                    <div class="nav__search-sec display__none">
+                        <form action="" onsubmit="return false" class="center__flex">
+                            <i class="fas fa-search margin-8px txt-grey"></i>
+                            <input type="text" placeholder="Search items here">
+                        </form>
+                    </div>
+
+                    <!-- Button section here-->
+                    <div class="nav__button-sec center__flex">
+                        <button class="btns btn__primary border__rad-4px">Login</button>
+                        <div class="bagde__sec margin-1rem">
+                            <i class="fas fa-heart"></i>
+                            <span class="bagde__sec-text border__rad-full center__flex">0</span>
+                        </div>
+                        <div class="bagde__sec margin-1rem">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="bagde__sec-text border__rad-full center__flex">0</span>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </header>
+
+        <!-- Product site wrapper here -->
+        <main class="product__site-wrapper">
+
+            <!-- Aside section here -->
+            <aside class="site__filter-sec">
+                <div class="filter__sec-title center__flex">
+                    <h3>Filter</h3>
+                    <button class="btns btn__link">Clear</button>
+                </div>
+                <div class="filter__sec-price">
+                    <h3>Price</h3>
+                    <input type="range">
+                </div>
+                <div class="filter__sec-category">
+                    <h3>Categories</h3>
+                    <form action="" class="center__flex flex__dir-col">
+                        <div>
+                            <input type="checkbox" name="" id="men-clothing">
+                            <label for="men-clothing">Men Clothing</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="men-clothing">
+                            <label for="men-clothing">Women Clothing</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="men-clothing">
+                            <label for="men-clothing">Unisex Clothing</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="filter__sec-rating">
+                    <h3>Rating</h3>
+                    <form action="" class="center__flex flex__dir-col">
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">4 Star and above</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">3 Star and above</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">2 Star and above</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">1 Star and above</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="filter__sec-sort">
+                    <h3>Sort by</h3>
+                    <form action="" class="center__flex flex__dir-col">
+                        <div>
+                            <input type="radio" name="sorting" id="">
+                            <label for="">Price - low to high</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="sorting" id="">
+                            <label for="">Price - high to low</label>
+                        </div>
+                    </form>
+                </div>
+
+            </aside>
+            <section class="site__product-sec">
+                <div class="product__sec-title display__none">
+                    Showing all products
+                </div>
+                <div class="product__sec-cards grid grid__col-4">
+                    <!-- E-Commerce product card here -->
+
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <!-- E-Commerce product card here -->
+
+                        <div class="card card__e-commerce grid">
+
+                            <!-- Card Upper section here -->
+                            <div class="card__sec-upper center__flex flex__dir-col">
+
+                                <!-- Card image here -->
+                                <div class="card__upper-image center__flex">
+                                    <img src="../assets/t-shirt-1.png" class="image__res" alt="product image">
+                                </div>
+
+                                <!--Card overlay section here  -->
+                                <div class="card__upper-overlay">
+                                    <div class="upper__overlay-icon">
+                                        <p class="shopping__cart-icon center__flex"> + </p>
+                                    </div>
+                                    <div class="upper__overlay-btn">
+                                        <button class="btns btn__primary">Quick View</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card Lower section here -->
+                            <div class="card__sec-lower center__flex flex__dir-col">
+                                <div class="center__flex lower__sec-details  flex__dir-col">
+                                    <p class="details__sec-title">Don't Drink and Root</p>
+                                    <p class="details__sec-title">Unisex T-Shirt</p>
+                                    <p class="price__sec-prev">₹ 1000</p>
+                                    <p class="price__sec-current margin__tb-8px">₹ 500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="main__footer center__flex flex__dir-col">
+            <h2 class="text-mid">Made with &lt;/&gt; By Ranjeet Singh</h2>
+            <p>@ 2022 Jeetsdev</p>
+        </footer>
+    </div>
+</body>
+</html>

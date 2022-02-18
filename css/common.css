@@ -1,16 +1,17 @@
 /*! Import area  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url("https://lagom-dev.netlify.app/components/components.css");
+@import url("https://sudo-ui.netlify.app/components/components.css");
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 
 /*! Common styles here */
 
 /* Color variables here */
  :root {
-     --primary-bg: #f1f1f1;
+     --color-pri:hsl(233, 17%, 18%);
+     --primary-bg: hsl(0, 0%, 95%);
      --color-text-bg: hsl(206, 51%, 92%);
-     --color-image-bg: #f2f7f9;
+     --color-image-bg: hsl(197, 37%, 96%);
 
  }
 
