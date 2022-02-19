@@ -30,29 +30,8 @@
     padding: 0 1rem;
 }
 
-.card {
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all .3s linear;
-}
-
-.card:hover {
-    box-shadow: 0 5px 10px var(--color-off-white);
-    transform: translateY(-5px);
-}
-
 /** Gaps btw cards */
 .product__sec-cards {
     gap: 1rem;
 }
 
-/** Card upper section here */
-.card .card__sec-upper {
-    background-color: var(--color-image-bg);
-}
-
-/** Card lower section here */
-.card__e-commerce .card__sec-lower {
-    background-color: var(--color-text-bg);
-    padding: 0.5rem;
-}

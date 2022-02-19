@@ -7,40 +7,6 @@ body {
     ;
 }
 
-
-/*! Main container style here */
-.container__main {
-    align-items: initial;
-}
-
-/*!  Header style here */
-
-.container__main .main__header {
-    min-height: 15vh;
-}
-
-/* Header announcment-bar style here */
-.main__header .header__announcment-bar {
-    width: 100%;
-    height: 20%;
-    min-height: 1rem;
-    background-color: var(--color-text-bg);
-    font-weight: 600;
-}
-
-
-/* Header navbar style here */
-.header__navbar .nav {
-    background-color: var(--primary-bg);
-    height: auto;
-    height: 80%;
-}
-
-.nav__button-sec button {
-    background-color: var(--text-sec);
-}
-
-
 /*! Main site wrappers style   */
 
 /* Site intro section style here  */
@@ -101,6 +67,7 @@ body {
 
 .intro__sec-text button {
     max-width: 10rem;
+    padding: 1rem;
     margin-top: 2rem;
     background-color: var(--text-sec);
 }
@@ -164,12 +131,4 @@ body {
 
 .newarrival__sec-cards .card__sec-lower {
     background-color: var(--color-text-bg);
-}
-
-
-/*! Main footer style here */
-
-.main__footer {
-    margin: 2rem 0;
-    min-height: 2rem;
 }
