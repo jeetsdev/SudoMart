@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-SudoMart</title>
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    <div class="container__main center__flex flex__dir-col">
+        <header class="main__header">
+
+            <!-- Announcment bar here -->
+            <section class="header__announcment-bar center__flex">
+                <p>
+                    Flat 50% off on various products.
+                </p>
+            </section>
+
+            <!-- Navbar here -->
+            <nav class="header__navbar center__flex">
+                <nav class="nav center__flex">
+
+                    <!-- Title section here -->
+                    <div class="nav__title-sec">
+                        <h3 class="headline-3"> SudoMart </h3>
+                    </div>
+
+                    <!-- Search section here-->
+                    <div class="nav__search-sec display__none">
+                        <form action="" onsubmit="return false" class="center__flex">
+                            <i class="fas fa-search margin-8px txt-grey"></i>
+                            <input type="text" placeholder="Search items here">
+                        </form>
+                    </div>
+
+                    <!-- Button section here-->
+                    <div class="nav__button-sec center__flex">
+                        <button class="btns btn__primary border__rad-4px">Login</button>
+                        <div class="bagde__sec margin-1rem">
+                            <i class="fas fa-heart"></i>
+                            <span class="bagde__sec-text border__rad-full center__flex">0</span>
+                        </div>
+                        <div class="bagde__sec margin-1rem">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="bagde__sec-text border__rad-full center__flex">0</span>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </header>
+
+        <!-- Title here-->
+        <h2 class="headline-2 main__title margin-1rem">My Cart</h2>
+
+        <!-- Cart site wrapper here -->
+        <div class="cart__site-wrapper grid grid__col-50-50">
+
+            <!-- Products here -->
+            <div class="cart__product-sec">
+
+                <!-- Horizental Card here -->
+                <div class="cart__product-item">
+                    <div class="card card__horizontal card__badge margin-1rem">
+                        <!-- Badge here -->
+                        <p class="card__badge-icon border__rad-4px">New</p>
+                        <div class="card__sec-upper center__flex flex__dir-col">
+                            <div class="card__upper-icon center__flex">
+                                <!-- wishlist icon -->
+                                <i class="far fa-heart border__rad-full center__flex margin-8px"></i>
+                            </div>
+                            <div class="card__upper-image center__flex">
+                                <!-- Image here -->
+                                <img src="../assets/t-shirt-1.png" class="images" alt="product image">
+                            </div>
+                        </div>
+                        <div class="card__sec-lower center__flex flex__dir-col">
+                            <!-- Card discription here -->
+                            <div class="lower__sec-details">
+                                <p class="details__sec-title margin__tb-8px padding__tb-8px">Round Neck T-Shirt</p>
+                                <div class="details__sec-price center__flex margin__tb-8px">
+                                    <p class="price__sec-current margin__tb-4px padding__tb-8px">₹ 500</p>
+                                    <p class="price__sec-prev margin__lr-8px padding__tb-8px">1000</p>
+                                </div>
+                                <p class="details__sec-discount">50% Off</p>
+                                <div class="details__sec-quantity center__flex paddind__tb-">
+                                    <p class="text-small">Quantity:</p>
+                                    <input type="number" value="2" class="margin__lr-8px">
+                                </div>
+                            </div>
+                            <div class="lower__sec-btn">
+                                <!-- Card buttons here -->
+                                <button class="btns btn__primary margin__tb-8px">Move to wishlist</button>
+                                <button class="btns btn__secondary margin__tb-8px">Remove from cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Cart order summary here -->
+            <div class="cart__details-sec center__flex">
+                <div class="cart__details-order padding-1rem">
+
+                    <!-- Order details title -->
+                    <div class="order__details-title padding-8px">
+                        <h3 class="headline-3">Order Summary</h3>
+                    </div>
+
+                    <!-- Order items -->
+                    <div class="order__details-item padding-8px">
+                        <div class="item-price center__flex">
+                            <p>Price (2 Items) </p>
+                            <p>1000</p>
+                        </div>
+                        <div class="item-discount center__flex">
+                            <p>Discount</p>
+                            <p>-200</p>
+                        </div>
+                        <div class="item-delivery center__flex">
+                            <p>Delivery Charges</p>
+                            <p>100</p>
+                        </div>
+                    </div>
+
+                    <!-- Order total -->
+                    <div class="order__details-total center__flex padding-8px">
+                        <h3 class="headline-3">TOTAL</h3>
+                        <h3 class="headline-3">900</h3>
+                    </div>
+
+                    <!-- Order place -->
+                    <div class="order__details-place padding-8px">
+                        <p>You will save 1100 on this order.</p>
+                        <button class="btns btn__primary margin__tb-8px">Place order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="main__footer center__flex flex__dir-col">
+            <h2 class="text-mid">Made with &lt;/&gt; By Ranjeet Singh</h2>
+            <p>@ 2022 Jeetsdev</p>
+        </footer>
+    </div>
+</body>
+</html>
