@@ -1,0 +1,12 @@
+@import url(common.css);
+
+
+/** Wishlist products section style here */
+.wishlist__product-sec {
+    width: 80%;
+}
+
+/** Wishlist items cards style here  */
+.wishlist__product-item .card__sec-lower {
+    padding: 0;
+}
