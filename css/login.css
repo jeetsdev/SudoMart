@@ -12,10 +12,6 @@
     align-items: flex-start;
 }
 
-.main__login-sec form h3 {
-    color: var(--);
-}
-
 .main__login-sec input {
     outline: none;
     width: 100%;
