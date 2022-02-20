@@ -1,0 +1,26 @@
+@import url(common.css);
+
+/*! Login section style here  */
+
+.main__login-sec {
+    min-height: 60vh;
+}
+
+/* form style here */
+.main__login-sec form {
+    min-width: 30ch;
+    align-items: flex-start;
+}
+
+.main__login-sec input {
+    outline: none;
+    width: 100%;
+}
+
+.main__login-sec form .btn__primary {
+    width: 100%;
+}
+
+.main__login-sec form p {
+    align-self: end;
+}
