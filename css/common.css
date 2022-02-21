@@ -9,6 +9,7 @@
 /* Color variables here */
 :root {
     --color-pri: hsl(233, 17%, 18%);
+    --text-pri: hsl(233, 7%, 38%);
     --primary-bg: hsl(0, 0%, 95%);
     --color-text-bg: hsl(206, 51%, 92%);
     --color-image-bg: hsl(197, 37%, 96%);

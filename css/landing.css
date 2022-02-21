@@ -65,7 +65,7 @@ body {
     color: var(--text-sec);
 }
 
-.intro__sec-text button {
+.intro__sec-text a {
     max-width: 10rem;
     padding: 1rem;
     margin-top: 2rem;
@@ -73,7 +73,7 @@ body {
 }
 
 
-.intro__sec-text button i {
+.intro__sec-text a i {
     transform: rotate(-90deg);
 }
 
